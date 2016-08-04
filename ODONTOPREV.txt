@@ -1,0 +1,44 @@
+mvilela@tray.net.br da2c4ce9
+
+
+Cancelamento Boleto
+	ok - Pages->centralCliente - Ajustar **
+	ok - Pages->getRestituicao - Ajustar **
+	
+Site Responsivo
+	ok - Grade OdontoPrev **** ****
+	ok - Grade Bradesco **** ****
+
+Telefone Opcional
+	ok - Adicionar telefone no cadastro *
+	ok - Adicionar telefone no backoffice *
+	ok - Adicionar telefone no webservice *
+
+Alterar Senha
+	ok - Adicionar botão para alterar senha na central do cliente *
+	ok - Criar modal para alteração de senha **
+	ok - Validar senhas alteradas **
+
+Demais
+	ok - Adicionar icone de PDF na central do cliente (ultima coluna) *
+	ok - Alterar frase do boleto na tela de alteração da forma de pagamento (#1669301) *
+	ok - Gerar arquivo csv para ser baixado no backoffice **
+	ok - Checar consistencia de CPFs (Cliente / Titular / Dependentes) **
+	ok - Em Checkout trocar imagem CVV (Bradesco e OdontoPrev) (#1669599) *
+	ok - Alterar frase do Termo e condições de uso (#1669231) *
+	ok - Alterar Keywords - OdontoPrev (#1669369) *
+	ok - Alterar Keywords - Bradesco (#1669285) *
+	ok - Corrigir de frase CVV (#1669265) *
+	ok - Alterar frase na alteração da forma de pagamento (#1669301) *
+	ok - Incluir barra de rolagem na tela de alteração da forma de pagamento (#1669301) *
+	ok - Incluir frase na tela de dados bancários (#1669772) *
+	ok - Incluir frase na tela de cadastro de cliente (#1668256) *
+		updateBlocoInstitucional-20-07-2016.sql
+		updateBlocoInstitucionalBradesco-20-07-2016.sql
+	ok - Alterar metatag na página de transação (#1669160) *
+
+Obs;
+Não permitir cancelamento e alteração quando a proposta ainda não possuir ODI/BRD
+Campo date reques no cancelamento não esta aparecendo
+Validação alterar senha em vermelho e mensagem deve aparecer no campo, apagar conteudo de campo quando validado
+Filtro da consulta de propostas por ID no backoffice
