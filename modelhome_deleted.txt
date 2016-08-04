@@ -1,0 +1,10 @@
+
+
+Welcome to CakePHP v2.6.11 Console
+---------------------------------------------------------------
+App : modelhome
+Path: C:\xampp\apps\modelhome\
+---------------------------------------------------------------
+BEGIN
+1
+Terminate batch job (Y/N)? Terminate batch job (Y/N)? Terminate batch job (Y/N)? Terminate batch job (Y/N)? 
